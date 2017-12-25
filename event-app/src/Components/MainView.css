@@ -1,4 +1,9 @@
 .mainView {
   flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 78vh;
+  border-radius: 15px;
   background-color: white;
+  overflow: scroll;
 }
