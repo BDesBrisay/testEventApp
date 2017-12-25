@@ -1,0 +1,6 @@
+.listContain {
+  display: flex;
+  flex-flow: column nowrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

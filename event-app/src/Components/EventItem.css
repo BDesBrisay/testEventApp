@@ -1,0 +1,16 @@
+.itemContain {
+  border-radius: 15px;
+  background-color: white;
+  margin: 0 10px 10px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.image {
+  width: 30%;
+  height: auto;
+}
+.infoContain {
+  display: flex;
+  flex-flow: column nowrap;
+  
+}

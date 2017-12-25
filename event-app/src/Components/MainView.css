@@ -3,7 +3,4 @@
   display: flex;
   flex-flow: column nowrap;
   height: 78vh;
-  border-radius: 15px;
-  background-color: white;
-  overflow: scroll;
 }
