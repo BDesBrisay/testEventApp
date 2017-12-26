@@ -1,12 +1,13 @@
 import React from 'react';
+import { MdMenu, MdFilterList } from 'react-icons/lib/md';
 import './Header.css';
 
 const Header = () => {
   return (
     <div className='header'>
-      <h3 className='headerItem'>M</h3>
+      <h2 className='headerItem'><MdMenu /></h2>
       <h2 className='headerItem'>EventApp</h2>
-      <h3 className='headerItem'>S</h3>
+      <h2 className='headerItem'><MdFilterList /></h2>
     </div>
   );
 }
