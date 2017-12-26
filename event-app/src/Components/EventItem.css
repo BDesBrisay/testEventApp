@@ -5,8 +5,8 @@
   display: flex;
   flex-flow: row nowrap;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  height: 100px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  max-height: 200px;
 }
 .image {
   width: 30%;
@@ -18,10 +18,39 @@
   flex-flow: column nowrap;
   text-align: left;
   padding: 10px;
+  overflow: hidden;
 }
 .name {
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 20px;
 }
 .desc {
   margin: 0;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  font-size: 14px;
+  line-height: 17px;
+  height: 40px;
+}
+.bottomContain {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 20px;
+  flex: 1;
+  overflow: hidden;
+}
+.bottomIcon {
+  margin: 0;
+}
+.bottomLabel {
+  margin: 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  white-space: nowrap;
 }

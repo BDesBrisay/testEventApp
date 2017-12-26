@@ -14,10 +14,10 @@
   flex-direction: column;
   justify-content: center;
   color: white;
-  border-bottom: 3px solid transparent;
+  border-bottom: 4px solid transparent;
 }
 .activeTab {
-  border-bottom: 3px solid white;
+  border-bottom: 4px solid white;
 }
 .tabIcon {
   margin: 10px 0 0;
