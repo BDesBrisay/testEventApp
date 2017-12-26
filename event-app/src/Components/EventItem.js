@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdAccessTime, MdLocationOn } from 'react-icons/lib/md';
 import './EventItem.css';
 
 const EventItem = ({ event }) => {
@@ -11,11 +12,11 @@ const EventItem = ({ event }) => {
           <p className='desc'>{event.desc}</p>
           <div className='bottomContain'>
             <div className='bottomContain'>
-              <h3 className='bottomIcon'>P</h3>
+              <h3 className='bottomIcon'><MdLocationOn /></h3>
               <p className='bottomLabel'>321 Address Here</p>
             </div>
             <div className='bottomContain'>
-              <h3 className='bottomIcon'>O</h3>
+              <h3 className='bottomIcon'><MdAccessTime /></h3>
               <p className='bottomLabel'>7:30pm Thursday</p>
             </div>
           </div>

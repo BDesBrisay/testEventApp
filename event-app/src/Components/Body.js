@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { MdHome, MdFace, MdPeople, MdShare } from 'react-icons/lib/md';
 import Header from './Header';
 import MainView from './MainView';
 import TabNav from './TabNav';
@@ -9,19 +10,19 @@ class Body extends Component {
     const tabList = [
       {
         name: 'Home',
-        icon: 'H',
+        icon: <MdHome />,
       },
       {
         name: 'Friends',
-        icon: 'F',
+        icon: <MdPeople />,
       },
       {
-        name: 'Connections',
-        icon: 'C',
+        name: 'Relations',
+        icon: <MdShare />,
       },
       {
         name: 'Profile',
-        icon: 'P',
+        icon: <MdFace />,
       },
     ];
 
