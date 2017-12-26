@@ -7,8 +7,8 @@ const EventItem = ({ event }) => {
       <div className='itemContain'>
         {'image' in event && <img src={event.image} alt={event.name} className='image'/>}
         <div className='infoContain'>
-          <p>{event.name}</p>
-          <p>{event.desc}</p>
+          <h4 className='name'>{event.name}</h4>
+          <p className='desc'>{event.desc}</p>
         </div>
       </div>
     </div>

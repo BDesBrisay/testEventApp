@@ -1,6 +1,7 @@
 import React from 'react';
 import EventItem from './EventItem';
-import logo from '../logo.svg';
+import logo from '../wisteria.jpg';
+import logo2 from '../logo.svg';
 import './EventList.css';
 
 const EventList = () => {
@@ -11,6 +12,7 @@ const EventList = () => {
       location: 'Corner of 28th and Arapahoe',
       time: '11:59 Dec 31st',
       attendees: '13',
+      image: logo,
     },
     {
       name: 'Super Secret Book Club Meeting',
@@ -18,6 +20,7 @@ const EventList = () => {
       location: 'Corner of 28th and Arapahoe',
       time: '11:59 Dec 31st',
       attendees: '13',
+      image: logo2,
     },
     {
       name: 'Super Secret Book Club Meeting',
@@ -33,6 +36,7 @@ const EventList = () => {
       location: 'Corner of 28th and Arapahoe',
       time: '11:59 Dec 31st',
       attendees: '13',
+      image: logo2,
     },
     {
       name: 'Super Secret Book Club Meeting',
@@ -40,6 +44,7 @@ const EventList = () => {
       location: 'Corner of 28th and Arapahoe',
       time: '11:59 Dec 31st',
       attendees: '13',
+      image: logo2,
     },
     {
       name: 'Super Secret Book Club Meeting',
@@ -47,6 +52,7 @@ const EventList = () => {
       location: 'Corner of 28th and Arapahoe',
       time: '11:59 Dec 31st',
       attendees: '13',
+      image: logo,
     },
     {
       name: 'Super Secret Book Club Meeting',
