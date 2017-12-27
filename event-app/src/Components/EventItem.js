@@ -13,11 +13,11 @@ const EventItem = ({ event }) => {
           <div className='bottomContain'>
             <div className='bottomContain'>
               <h3 className='bottomIcon'><MdLocationOn /></h3>
-              <p className='bottomLabel'>321 Address Here</p>
+              <p className='bottomLabel'>{event.location}</p>
             </div>
             <div className='bottomContain'>
               <h3 className='bottomIcon'><MdAccessTime /></h3>
-              <p className='bottomLabel'>7:30pm Thursday</p>
+              <p className='bottomLabel'>{event.time}</p>
             </div>
           </div>
         </div>
