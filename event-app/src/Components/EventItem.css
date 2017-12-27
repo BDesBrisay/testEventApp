@@ -14,6 +14,7 @@
   width: 30%;
   height: 100px;
   background: #ddd;
+  object-fit: cover;
 }
 .infoContain {
   flex: 1;
