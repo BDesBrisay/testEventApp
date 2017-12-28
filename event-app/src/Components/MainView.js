@@ -2,10 +2,11 @@ import React from 'react';
 import EventList from './EventList';
 import './MainView.css';
 
-const MainView = () => {
+const MainView = ({ activeTab }) => {
   return (
     <div className='mainView'>
-      <EventList />
+      {activeTab === 'Home' && <EventList />}
+      
     </div>
   );
 }

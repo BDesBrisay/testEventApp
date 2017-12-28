@@ -6,6 +6,20 @@ import TabNav from './TabNav';
 import './Body.css';
 
 class Body extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      activeTab: 'Home',
+    }
+  }
+
+  tabHandler = (e) => {
+    e.preventDefault();
+    const { id } = e.currentTarget
+    this.setState({activeTab: id});
+  }
+
   render() {
     const tabList = [
       {
@@ -29,8 +43,8 @@ class Body extends Component {
     return (
       <div>
         <Header />
-        <MainView />
-        <TabNav tabs={tabList}/>
+        <MainView activeTab={this.state.activeTab} />
+        <TabNav tabs={tabList} activeTab={this.state.activeTab} tabHandler={this.tabHandler}/>
       </div>
     );
   }
