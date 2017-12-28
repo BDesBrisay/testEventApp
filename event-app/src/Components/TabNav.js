@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './TabNav.css';
 
 const TabNav = ({ tabs, activeTab, tabHandler }) => {
