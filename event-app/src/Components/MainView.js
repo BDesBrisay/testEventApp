@@ -6,7 +6,6 @@ const MainView = ({ activeTab }) => {
   return (
     <div className='mainView'>
       {activeTab === 'Home' && <EventList />}
-      
     </div>
   );
 }
