@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='header'>
       <h2 className='headerItem'><MdMenu /></h2>
-      <h2 className='headerItem'>EventApp</h2>
+      <h2 className='headerItem'>Eazy-Event</h2>
       <h2 className='headerItem'><MdFilterList /></h2>
     </div>
   );
