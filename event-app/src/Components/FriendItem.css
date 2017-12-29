@@ -3,17 +3,21 @@
   background-color: white;
   color: #333;
   margin: 5px 10px;
+  padding: 10px;
+  box-sizing: border-box;
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  height: 60px;
 }
 .friendImage {
   height: 40px;
   width: 40px;
   border-radius: 20px;
-  margin: 10px 0;
   object-fit: cover;
+  background-color: #ddd;
 }
 .friendName {
   text-align: left;
@@ -25,5 +29,5 @@
   white-space: nowrap;
 }
 .friendIcon {
-
+  font-size: 30px;
 }

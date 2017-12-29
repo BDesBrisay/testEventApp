@@ -35,7 +35,7 @@ const FriendsList = () => {
       image: image1,
     },
     {
-      name: 'Dave \'Goodallion\' Higginbottoms',
+      name: 'Dave \'Quintillion\' Higginbottoms',
       image: image2,
     },
     {
