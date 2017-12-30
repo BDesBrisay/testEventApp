@@ -6,15 +6,18 @@
   margin: 5px 10px;
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0,0,0,0.3);
   max-height: 200px;
 }
 .image {
-  width: 30%;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   background: #ddd;
   object-fit: cover;
+  margin: 10px 0px 10px 10px;
+  border-radius: 35px;
 }
 .infoContain {
   flex: 1;
@@ -31,6 +34,9 @@
   -webkit-text-overflow: ellipsis;
   white-space: nowrap;
   line-height: 20px;
+  background: -webkit-linear-gradient(110deg, #9966FF, #3399FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .desc {
   margin: 0 0 6px;
