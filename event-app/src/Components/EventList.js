@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdMenu, MdFilterList } from 'react-icons/lib/md';
 import EventItem from './EventItem';
 import logo from '../wisteria.jpg';
 import logo2 from '../logo.svg';
@@ -66,6 +67,7 @@ const EventList = () => {
 
   return (
     <div className='listContain'>
+      <h2 className='headerItem'>Eazy-Event</h2>
       {sampleEvents.map((event, index) => (
         <EventItem event={event} key={index} />
       ))}

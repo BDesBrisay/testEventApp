@@ -42,7 +42,7 @@ class Body extends Component {
 
     return (
       <div>
-        <Header />
+        {/*<Header />*/}
         <MainView activeTab={this.state.activeTab} />
         <TabNav tabs={tabList} activeTab={this.state.activeTab} tabHandler={this.tabHandler}/>
       </div>
