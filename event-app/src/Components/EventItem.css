@@ -1,12 +1,13 @@
 .itemContain {
   background-color: white;
   color: #333;
-  margin: 5px 10px;
+  margin: 0 10px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   overflow: hidden;
   max-height: 200px;
+  border-bottom: 1px solid #ddd;
 }
 .image {
   width: 70px;
@@ -31,6 +32,7 @@
   -webkit-text-overflow: ellipsis;
   white-space: nowrap;
   line-height: 20px;
+  color: #9966FF;
   background: -webkit-linear-gradient(110deg, #9966FF, #3399FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
