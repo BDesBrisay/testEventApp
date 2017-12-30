@@ -7,7 +7,9 @@
   background: white;
 }
 .headerItem {
+  padding: 15px 0;
   margin: 0 15px;
+  border-bottom: 1px solid #ddd;
   background: -webkit-linear-gradient(110deg, #9966FF, #3399FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
