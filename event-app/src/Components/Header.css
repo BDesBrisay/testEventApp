@@ -4,8 +4,11 @@
   align-items: center;
   justify-content: space-between;
   height: 10vh;
-  color: white;
+  background: white;
 }
 .headerItem {
   margin: 0 15px;
+  background: -webkit-linear-gradient(110deg, #9966FF, #3399FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
