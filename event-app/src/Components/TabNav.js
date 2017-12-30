@@ -11,7 +11,7 @@ const TabNav = ({ tabs, activeTab, tabHandler }) => {
           id={tab.name}
           key={index}>
           <h1 className='tabIcon'>{tab.icon}</h1>
-          <p className='tabLabel'>{tab.name}</p>
+          {/*<p className='tabLabel'>{tab.name}</p>*/}
         </div>
       ))}
     </div>
