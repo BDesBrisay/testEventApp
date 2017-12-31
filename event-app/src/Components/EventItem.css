@@ -7,7 +7,6 @@
   flex-flow: row nowrap;
   align-items: center;
   overflow: hidden;
-  max-height: 200px;
   border-bottom: 1px solid #ddd;
 }
 .image {
@@ -32,33 +31,28 @@
   text-overflow: ellipsis;
   -webkit-text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 16px;
   line-height: 20px;
   color: #9966FF;
   background: -webkit-linear-gradient(110deg, #9966FF, #3399FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.desc {
-  margin: 0 0 6px;
-  overflow: hidden;
-  -webkit-line-clamp: 2;
-  font-size: 14px;
-  line-height: 17px;
-  height: 34px;
-}
 .bottomContain {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  height: 20px;
   flex: 1;
   overflow: hidden;
+  margin: 3px 0 0;
 }
 .bottomIcon {
   margin: 0;
+  font-size: 14px;
 }
 .bottomLabel {
   margin: 0 5px;
+  font-size: 14px;
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-text-overflow: ellipsis;

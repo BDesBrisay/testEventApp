@@ -9,16 +9,13 @@ const EventItem = ({ event }) => {
         {'image' in event && <img src={event.image} alt={event.name} className='image'/>}
         <div className='infoContain'>
           <h4 className='name'>{event.name}</h4>
-          <p className='desc'>{event.desc}</p>
           <div className='bottomContain'>
-            <div className='bottomContain'>
-              <h3 className='bottomIcon'><MdLocationOn /></h3>
-              <p className='bottomLabel'>{event.location}</p>
-            </div>
-            <div className='bottomContain'>
-              <h3 className='bottomIcon'><MdAccessTime /></h3>
-              <p className='bottomLabel'>{event.time}</p>
-            </div>
+            <h3 className='bottomIcon'><MdAccessTime /></h3>
+            <p className='bottomLabel'>{event.time}</p>
+          </div>
+          <div className='bottomContain'>
+            <h3 className='bottomIcon'><MdLocationOn /></h3>
+            <p className='bottomLabel'>{event.location}</p>
           </div>
         </div>
       </div>
