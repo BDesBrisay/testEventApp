@@ -24,8 +24,10 @@
 }
 .tabIcon {
   /*margin: 10px 0 0;*/
-  margin: 5px;
+  margin: 0;
+  font-size: 5vh;
 }
 .tabLabel {
   margin: 0 0 10px;
+  font-size: 2vh;
 }

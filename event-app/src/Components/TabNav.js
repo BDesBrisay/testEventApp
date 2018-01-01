@@ -10,8 +10,8 @@ const TabNav = ({ tabs, activeTab, tabHandler }) => {
           onClick={tabHandler}
           id={tab.name}
           key={index}>
-          <h1 className='tabIcon'>{tab.icon}</h1>
-          {/*<p className='tabLabel'>{tab.name}</p>*/}
+          <div className='tabIcon'>{tab.icon}</div>
+          {/*activeTab === tab.name && <p className='tabLabel'>{tab.name}</p>*/}
         </div>
       ))}
     </div>
