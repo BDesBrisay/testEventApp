@@ -70,7 +70,6 @@ const EventList = () => {
 
   return (
     <div className='listContain'>
-      <h2 className='headerItem'>Eazy-Event</h2>
       {sampleEvents.map((event, index) => (
         <EventItem event={event} key={index} />
       ))}
