@@ -1,5 +1,4 @@
 .itemContain {
-  background-color: white;
   color: #333;
   margin: 0 10px;
   padding: 5px 0;
@@ -37,6 +36,16 @@
   background: -webkit-linear-gradient(110deg, #9966FF, #3399FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  position: relative;
+}
+.name::after {
+  background-image: linear-gradient( to left, #fff, rgba(255,255,255,0));
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 20px;
+  width: 50px;
+  content: '';
 }
 .bottomContain {
   display: flex;
