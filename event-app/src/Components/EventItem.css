@@ -32,12 +32,9 @@
   white-space: nowrap;
   font-size: 16px;
   line-height: 20px;
-  color: #9966FF;
-  background: -webkit-linear-gradient(110deg, #9966FF, #3399FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #6680FF;
   position: relative;
-}
+}/*
 .name::after {
   background-image: linear-gradient( to left, #fff, rgba(255,255,255,0));
   position: absolute;
@@ -46,7 +43,7 @@
   height: 20px;
   width: 50px;
   content: '';
-}
+}*/
 .bottomContain {
   display: flex;
   flex-flow: row nowrap;
