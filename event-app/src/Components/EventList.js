@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdMenu, MdFilterList } from 'react-icons/lib/md';
 import EventItem from './EventItem';
 import logo1 from '../wisteria.jpg';
 import logo2 from '../logo.svg';
@@ -65,6 +64,7 @@ const EventList = () => {
       location: 'Corner of 28th and Arapahoe',
       time: '11:59 Dec 31st',
       attendees: '13',
+      image: logo2
     },
   ];
 

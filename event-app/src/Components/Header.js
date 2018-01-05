@@ -2,7 +2,7 @@ import React from 'react';
 import { MdMenu, MdFilterList } from 'react-icons/lib/md';
 import './Header.css';
 
-const Header = () => {
+const Header = ({ activeTab }) => {
   return (
     <div className='header'>
       <h2 className='headerItem'><MdMenu /></h2>

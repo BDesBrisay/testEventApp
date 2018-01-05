@@ -1,27 +1,27 @@
 .friendItemContain {
-  border-radius: 10px;
-  background-color: white;
   color: #333;
-  margin: 5px 10px;
-  padding: 10px;
+  margin: 0 10px;
+  padding: 5px 0;
   box-sizing: border-box;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  height: 60px;
+  border-bottom: 1px solid #ddd;
 }
 .friendImage {
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 25px;
   object-fit: cover;
   background-color: #ddd;
 }
 .friendName {
   text-align: left;
-  margin: 0 10px;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 3px 0 0;
   flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -30,4 +30,15 @@
 }
 .friendIcon {
   font-size: 30px;
+}
+.friendTime {
+  text-align: left;
+  font-size: 14px;
+  margin: 3px 0;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal;
 }
