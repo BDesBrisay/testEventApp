@@ -31,7 +31,7 @@ class Body extends Component {
         icon: <MdPeople />,
       },
       {
-        name: 'Relations',
+        name: 'Connections',
         icon: <MdShare />,
       },
       {
