@@ -6,7 +6,8 @@ const Header = ({ activeTab }) => {
   return (
     <div className='header'>
       <h2 className='headerItem'><MdMenu /></h2>
-      <h2 className='headerItem'>Eazy-Event</h2>
+      {activeTab === 'Home' && <h2 className='headerItem'>Eazy-Event</h2>}
+      {activeTab === 'Friends' && <h2 className='headerItem'>Friends</h2>}
       <h2 className='headerItem'><MdFilterList /></h2>
     </div>
   );
