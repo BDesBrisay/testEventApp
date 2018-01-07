@@ -18,9 +18,9 @@ const EventItem = ({ event }) => {
             <p className='bottomLabel'>{event.location}</p>
           </div>
           {('tags' in event && event.tags.length > 0) &&
-            <div className='bottomContain'>
+            <div className='tagsContain'>
               {event.tags.map((tag, index) => (
-                <div key={index} className='tagContain'>{tag}</div>
+                <div key={index} className='tag'>{tag}</div>
               ))}
             </div>
           }
