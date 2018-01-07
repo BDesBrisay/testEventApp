@@ -13,10 +13,10 @@ const EventItem = ({ event }) => {
             <h3 className='bottomIcon'><MdAccessTime /></h3>
             <p className='bottomLabel'>{event.time}</p>
           </div>
-          <div className='bottomContain'>
+          {/*<div className='bottomContain'>
             <h3 className='bottomIcon'><MdLocationOn /></h3>
             <p className='bottomLabel'>{event.location}</p>
-          </div>
+          </div>*/}
           {('tags' in event && event.tags.length > 0) &&
             <div className='tagsContain'>
               {event.tags.map((tag, index) => (
