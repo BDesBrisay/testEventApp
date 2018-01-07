@@ -64,3 +64,11 @@
   -webkit-text-overflow: ellipsis;
   white-space: nowrap;
 }
+.tagContain {
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: rgba(102, 128, 255, 0.5);
+  border-radius: 85px;
+  flex: 0 0 auto
+}
