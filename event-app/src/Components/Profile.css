@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 30px 20px 10px;
+  padding: 20px 20px 10px;
   box-sizing: border-box;
 }
 .profileImage {
@@ -44,4 +44,8 @@
   background-color: rgba(102, 128, 255, 0.3);
   border-radius: 85px;
   flex: 0 0 auto
+}
+.profileBio {
+  margin: 5px 35px;
+  color: #444;
 }

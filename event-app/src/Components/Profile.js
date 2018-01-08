@@ -26,6 +26,10 @@ const Profile = () => {
               <div className='profileTag'>{tag}</div>
             ))}
           </div>}
+        {'about' in sampleProfile &&
+          <div className='profileBio'>
+            <p>{sampleProfile.about}</p>
+          </div>}
       </div>
     </div>
   );
