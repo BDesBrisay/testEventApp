@@ -19,6 +19,14 @@ const Profile = () => {
         {'name' in sampleProfile && <h2 className='profileName'>{sampleProfile.name}</h2>}
         {'email' in sampleProfile && <p className='profileEmail'>{sampleProfile.email}</p>}
       </div>
+      <div className='profileInfo'>
+        {'tags' in sampleProfile &&
+          <div className='profileTagsContain'>
+            {sampleProfile.tags.map((tag, index) => (
+              <div className='profileTag'>{tag}</div>
+            ))}
+          </div>}
+      </div>
     </div>
   );
 };
