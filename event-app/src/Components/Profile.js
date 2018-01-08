@@ -16,6 +16,8 @@ const Profile = () => {
     <div className='profileContain'>
       <div className='profileHeader'>
         {'profileImage' in sampleProfile && <img src={sampleProfile.profileImage} alt='Profile Picture' className='profileImage'/>}
+        {'name' in sampleProfile && <h2 className='profileName'>{sampleProfile.name}</h2>}
+        {'email' in sampleProfile && <p className='profileEmail'>{sampleProfile.email}</p>}
       </div>
     </div>
   );
