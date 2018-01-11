@@ -23,6 +23,10 @@
   color: white;
   border-bottom: 5px solid white;
 }
+.activeCapture {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+}
 .tabIcon {
   /*margin: 10px 0 0;*/
   margin: 0;

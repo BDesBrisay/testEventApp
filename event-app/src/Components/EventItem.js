@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdAccessTime, MdLocationOn } from 'react-icons/lib/md';
+import { MdAccessTime/*, MdLocationOn*/ } from 'react-icons/lib/md';
 import './EventItem.css';
 
 const EventItem = ({ event }) => {
