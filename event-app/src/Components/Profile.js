@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profile.css';
-import image from '../powerlifting.webp';
+import image from '../wisteria.jpg';
 
 const Profile = () => {
   const sampleProfile = {

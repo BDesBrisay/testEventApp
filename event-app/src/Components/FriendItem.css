@@ -27,7 +27,7 @@
   text-overflow: ellipsis;
   -webkit-text-overflow: ellipsis;
   white-space: nowrap;
-  color: #6680FF;
+  color: #333;
 }
 .friendIcon {
   font-size: 30px;
